@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    
+}
+
+.header{
+    background-color: rgb(173, 245, 235);
+    width: 100%;
+    height: 100vh;
+    padding-right: 10%;
+
+    background-image: url(ice-cream\ 1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+   
+}
+.top-bar img{
+    width: 15%;
+    height: 15%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.side-nav{
+    position: fixed;
+    background: #61a542;
+    width: 180px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 0;
+        
+}
+.side-nav ul li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.side-nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+hr{
+    border-top: 1px solid white;
+}
+
+.text-box{
+    font-size: 18px;
+    color:green;
+    margin-left: 200px;
+   
+
+}
+.text-box h1{
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 50px;
+    line-height: 50px;
+    
+}
+
+.text{
+    max-width: 450px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.container{
+    margin-left: 210px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.container img{
+    max-width: 100%;
+    max-height: 100%;
+}
